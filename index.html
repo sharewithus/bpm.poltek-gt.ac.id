@@ -28,22 +28,16 @@
 
     <link href="css/templatemo-topic-listing.css" rel="stylesheet" />
 
-    <!--
+    <!-- TemplateMo 590 topic listing
+      https://templatemo.com/tm-590-topic-listing -->
 
-TemplateMo 590 topic listing
-
-https://templatemo.com/tm-590-topic-listing
-
--->
-  
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-   
   </head>
 
   <body id="top">
     <main>
       <nav class="navbar navbar-expand-lg">
-        <div class="container">
+        <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="./images/logo.png" width="64" alt="Logo" />
           </a>
@@ -65,66 +59,156 @@ https://templatemo.com/tm-590-topic-listing
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-lg-5 me-lg-auto">
+            <ul
+              class="navbar-nav navbar-nav-scroll"
+              style="--bs-scroll-height: 300px"
+            >
               <li class="nav-item">
-                <a class="nav-link click-scroll" href="#section_1">Rumah</a>
+                <a class="nav-link" href="/spmi/index.html#section_1">Rumah</a>
               </li>
 
-              <!-- <li class="nav-item">
-                <a class="nav-link click-scroll" href="#section_2"
-                  >Tentang BPM</a
-                >
-              </li> -->
-
-              <li class="nav-item">
-                <a class="nav-link click-scroll" href="#section_2"
-                  >Informasi Mutu</a
-                >
-              </li>
-
-              <!-- <li class="nav-item">
-                <a class="nav-link click-scroll" href="#section_4">Hasil Akreditasi</a>
-              </li> -->
-
-              <li class="nav-item">
-                <a class="nav-link click-scroll" href="#section_5">Kontak</a>
-              </li>
-
-              <!-- <li class="nav-item dropdown">
+              <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
-                  id="navbarLightDropdownMenuLink"
+                  id="profil-bpm"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  >halaman berikutnya</a
+                  >Profil BPM</a
                 >
 
-                <ul
-                  class="dropdown-menu dropdown-menu-light"
-                  aria-labelledby="navbarLightDropdownMenuLink"
-                >
+                <ul class="dropdown-menu" aria-labelledby="profil-bpm">
                   <li>
-                    <a class="dropdown-item" href="topics-detail.html"
-                      >SPM PGT</a
+                    <a class="dropdown-item" href="#">Visi Misi</a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/spmi/struktur-organisasi.html"
+                      >Struktur Organisasi</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">PPEPP</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="informasi-bpm"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Informasi BPM</a
+                >
+
+                <ul class="dropdown-menu" aria-labelledby="informasi-bpm">
+                  <li>
+                    <a class="dropdown-item" href="#">Kegiatan</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">Berita</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="ami"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Audit Mutu Internal (AMI)</a
+                >
+
+                <ul class="dropdown-menu" aria-labelledby="ami">
+                  <li>
+                    <a class="dropdown-item" href="#">Instrumen AMI</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">SOP AMI</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Pedoman AMI</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Daftar Gugus Kendali Mutu</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Daftar Auditor Mutu Internal</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dokumen"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Dokumen SPMI</a
+                >
+
+                <ul class="dropdown-menu" aria-labelledby="dokumen">
+                  <li>
+                    <a class="dropdown-item" href="/spmi/kebijakan.html"
+                      >Kebijakan</a
                     >
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="topics-listing.html">hasil dan kebijakan</a>
+                    <a class="dropdown-item" href="/spmi/standard.html"
+                      >Standard</a
+                    >
                   </li>
-
                   <li>
-                    <a class="dropdown-item" href="contact.html">Kontak Form</a>
+                    <a class="dropdown-item" href="/spmi/manual.html">Manual</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Formulir</a>
                   </li>
                 </ul>
-              </li> -->
-            </ul>
+              </li>
 
-            <!-- <div class="d-none d-lg-block">
-              <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
-            </div> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hasil Akreditasi Program Studi</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="laporan"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Laporan</a
+                >
+
+                <ul class="dropdown-menu" aria-labelledby="laporan">
+                  <li>
+                    <a class="dropdown-item" href="/spmi/laporan.html"
+                      >Laporan BPM</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -188,7 +272,7 @@ https://templatemo.com/tm-590-topic-listing
 
                     <span class="badge bg-design rounded-pill ms-auto">14</span>
                   </div>
-                  
+
                   <img
                     src="images/topics/undraw_Remote_design_team_re_urdx.png"
                     class="custom-block-image img-fluid"
@@ -254,241 +338,7 @@ https://templatemo.com/tm-590-topic-listing
       <section class="explore-section section-padding" id="section_2">
         <div class="container">
           <div class="col-12 text-center">
-            <h2 class="mb-4">Informasi Mutu</h2>
-          </div>
-        </div>
-
-        <div class="container-fluid">
-          <div class="row">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link active"
-                  id="design-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#design-tab-pane"
-                  type="button"
-                  role="tab"
-                  aria-controls="design-tab-pane"
-                  aria-selected="true"
-                >
-                  
-                Kebijakan Mutu
-                </button>
-              </li>
-
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="marketing-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#marketing-tab-pane"
-                  type="button"
-                  role="tab"
-                  aria-controls="marketing-tab-pane"
-                  aria-selected="false"
-                >
-                  Struktur organisasi
-                </button>
-              </li>
-
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="finance-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#finance-tab-pane"
-                  type="button"
-                  role="tab"
-                  aria-controls="finance-tab-pane"
-                  aria-selected="false"
-                >
-                  Standard Penelitian
-                </button>
-              </li>
-
-              <!-- <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="music-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#music-tab-pane"
-                  type="button"
-                  role="tab"
-                  aria-controls="music-tab-pane"
-                  aria-selected="false"
-                >
-                  Visi dan Misi
-                </button>
-              </li> -->
-
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="education-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#education-tab-pane"
-                  type="button"
-                  role="tab"
-                  aria-controls="education-tab-pane"
-                  aria-selected="false"
-                >
-                  Standard Pendidikan
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="tab-content" id="myTabContent">
-                <div
-                  class="tab-pane fade show active"
-                  id="design-tab-pane"
-                  role="tabpanel"
-                  aria-labelledby="design-tab"
-                  tabindex="0"
-                >
-                  <div class="row">
-                    <div class="col-12 mb-4 mb-lg-0">
-                      <div class="custom-block bg-white shadow-lg">
-                        <!-- <a href="topics-detail.html"> -->
-                          <div class="d-flex">
-                            <div>
-                              <h5 class="mb-2">Kebijakan Mutu</h5>
-
-                              <!-- <p class="mb-0">
-                                Topic Listing Template based on Bootstrap 5
-                              </p> -->
-                            </div>
-
-                            <!-- <span class="badge bg-design rounded-pill ms-auto"
-                              >14</span
-                            > -->
-                          </div>
-                          <iframe src="https://poltekgtacid-my.sharepoint.com/personal/rikza_poltek-gt_ac_id/_layouts/15/embed.aspx?UniqueId=f49e45ad-9b87-49e9-975e-63169f9bf094" width="100%" height="500px" frameborder="0" scrolling="yes" allowfullscreen title="KEBIJAKAN MUTU.pdf"></iframe>
-                          <!-- <img
-                            src="images/topics/undraw_Remote_design_team_re_urdx.png"
-                            class="custom-block-image img-fluid"
-                            alt=""
-                          /> -->
-                        <!-- </a> -->
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-
-                <div
-                  class="tab-pane fade"
-                  id="marketing-tab-pane"
-                  role="tabpanel"
-                  aria-labelledby="marketing-tab"
-                  tabindex="0"
-                >
-                  <div class="row">
-                    <div class="col-12 mb-4 mb-lg-3">
-                      <div class="custom-block bg-white shadow-lg">
-                          <div class="d-flex">
-                            <div>
-                              <h5 class="mb-2">Struktur Organisasi Badan Penjamin Mutu Politeknik Gajah Tunggal</h5>
-
-                              <!-- <p class="mb-0">
-                                Klik untuk melihat Surat Keputusan
-                              </p> -->
-                            </div>
-
-                            <!-- <span
-                              class="badge bg-advertising rounded-pill ms-auto"
-                              >30</span
-                            > -->
-                          </div>
-                            <iframe src="https://poltekgtacid-my.sharepoint.com/personal/rikza_poltek-gt_ac_id/_layouts/15/embed.aspx?UniqueId=bf6aa4ab-22bb-4959-a84a-18d652c1469e" width="100%" height="500px" frameborder="0" scrolling="yes" allowfullscreen title="STRUKTUR ORGANISASI.pdf"></iframe>
-
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="tab-pane fade"
-                  id="finance-tab-pane"
-                  role="tabpanel"
-                  aria-labelledby="finance-tab"
-                  tabindex="0"
-                >
-                  <div class="row">
-                    <div class="col-12 mb-4 mb-lg-0">
-                      <div class="custom-block bg-white shadow-lg">
-                        <!-- <a href="topics-detail.html"> -->
-                          <div class="d-flex">
-                            <div>
-                              <h5 class="mb-2">Standard Penelitian</h5>
-
-                              <!-- <p class="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
-                              </p> -->
-                            </div>
-
-                            <!-- <span class="badge bg-finance rounded-pill ms-auto"
-                              >30</span
-                            > -->
-                          </div>
-                          <iframe src="https://poltekgtacid-my.sharepoint.com/personal/rikza_poltek-gt_ac_id/_layouts/15/embed.aspx?UniqueId=10f27640-163d-4189-b93c-cba457d6cd06" width="100%" height="500px" frameborder="0" scrolling="yes" allowfullscreen title="STANDARD PENELITIAN.pdf"></iframe>
-                          <!-- <img
-                            src="images/topics/undraw_Finance_re_gnv2.png"
-                            class="custom-block-image img-fluid"
-                            alt=""
-                          /> -->
-                        <!-- </a> -->
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-
-
-                <div
-                  class="tab-pane fade"
-                  id="education-tab-pane"
-                  role="tabpanel"
-                  aria-labelledby="education-tab"
-                  tabindex="0"
-                >
-                  <div class="row">
-                    <div class="col-12 mb-4 mb-lg-3">
-                      <div class="custom-block bg-white shadow-lg">
-                        <!-- <a href="topics-detail.html"> -->
-                          <div class="d-flex">
-                            <div>
-                              <h5 class="mb-2">Standard Pendidikan</h5>
-
-                              <!-- <p class="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
-                              </p> -->
-                            </div>
-
-                            <!-- <span
-                              class="badge bg-education rounded-pill ms-auto"
-                              >80</span
-                            > -->
-                          </div>
-                          <iframe src="https://poltekgtacid-my.sharepoint.com/personal/rikza_poltek-gt_ac_id/_layouts/15/embed.aspx?UniqueId=b65d15d7-f235-4d9d-9f1a-9bf91c21c7a9" width="100%" height="500px" frameborder="0" scrolling="yes" allowfullscreen title="STANDARD PENDIDIKAN.pdf"></iframe>
-                          <!-- <img
-                            src="images/topics/undraw_Graduation_re_gthn.png"
-                            class="custom-block-image img-fluid"
-                            alt=""
-                          /> -->
-                        <!-- </a> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h2 class="mb-4">Panduan Mutu</h2>
           </div>
         </div>
       </section>
@@ -769,31 +619,6 @@ https://templatemo.com/tm-590-topic-listing
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-6">
-            <h6 class="site-footer-title mb-3">Menu</h6>
-
-            <ul class="site-footer-links">
-              <li class="site-footer-link-item">
-                <a href="#" class="site-footer-link">Rumah</a>
-              </li>
-
-              <!-- <li class="site-footer-link-item">
-                <a href="#" class="site-footer-link">Tentang BPM</a>
-              </li> -->
-
-              <li class="site-footer-link-item">
-                <a href="#" class="site-footer-link">Informasi Mutu</a>
-              </li>
-
-              <!-- <li class="site-footer-link-item">
-                <a href="#" class="site-footer-link">hasil Akreditasi</a>
-              </li> -->
-              <li class="site-footer-link-item">
-                <a href="#" class="site-footer-link">Kontak</a>
-              </li>
-            </ul>
-          </div>
-
           <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
             <h6 class="site-footer-title mb-3">Informasi</h6>
 
@@ -845,7 +670,9 @@ https://templatemo.com/tm-590-topic-listing
               <a rel="nofollow" href="https://templatemo.com" target="_blank"
                 >TemplateMo</a
               >
-              Distribution <a href="https://themewagon.com">ThemeWagon</a> Edited By <a href="https://github.com/rikzagoldluck">@rikzagoldluck</a>
+              Distribution
+              <a href="https://themewagon.com">ThemeWagon</a> Edited By
+              <a href="https://github.com/rikzagoldluck">@rikzagoldluck</a>
             </p>
           </div>
         </div>
@@ -881,6 +708,5 @@ https://templatemo.com/tm-590-topic-listing
         loop: true,
       });
     </script>
-
   </body>
 </html>
